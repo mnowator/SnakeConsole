@@ -1,0 +1,41 @@
+﻿Build started 2014-11-03 19:10:02.
+     1>Project "D:\VS Projects\SnakeConsole\SnakeConsole\SnakeConsole.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS Projects\ShipsConsole\Debug\SnakeConsole.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS Projects\ShipsConsole\Debug\SnakeConsole.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS Projects\ShipsConsole\Debug\SnakeConsole.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\main.obj
+         Debug\Map.obj
+         Debug\Position.obj
+         Debug\Snake.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libcpmtd.lib(xlocale.obj) : error LNK2019: unresolved external symbol __free_dbg referenced in function "public: char & __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::operator[](unsigned int)" (??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z)
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cin.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>Game.obj : error LNK2001: unresolved external symbol __free_dbg
+     1>Map.obj : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cout.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>Map.obj : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "public: struct std::pair<class Position,enum Map::MAP_ELEMENT_TYPE> & __thiscall std::vector<struct std::pair<class Position,enum Map::MAP_ELEMENT_TYPE>,class std::allocator<struct std::pair<class Position,enum Map::MAP_ELEMENT_TYPE> > >::operator[](unsigned int)" (??A?$vector@U?$pair@VPosition@@W4MAP_ELEMENT_TYPE@Map@@@std@@V?$allocator@U?$pair@VPosition@@W4MAP_ELEMENT_TYPE@Map@@@std@@@2@@std@@QAEAAU?$pair@VPosition@@W4MAP_ELEMENT_TYPE@Map@@@1@I@Z)
+     1>Snake.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(cin.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol __calloc_dbg referenced in function __Getctype
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: unresolved external symbol __malloc_dbg referenced in function "public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z)
+     1>D:\VS Projects\ShipsConsole\Debug\SnakeConsole.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "D:\VS Projects\SnakeConsole\SnakeConsole\SnakeConsole.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.38
